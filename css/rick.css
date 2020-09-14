@@ -1,0 +1,59 @@
+/* css for body */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+header {
+  background-color: rgb(38, 44, 58);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+header h1 {
+  color: white;
+  font-family: "Creepster", cursive;
+  font-size: 80px;
+}
+h2 {
+  font-family: "Creepster", cursive;
+  font-size: 50px;
+  color: rgb(38, 44, 58);
+}
+header img {
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20;
+}
+main img {
+  width: 70%;
+  border-radius: 50px;
+}
+
+a {
+  color: rgb(38, 44, 58);
+}
+a:hover {
+  color: #000;
+}
+footer {
+  color: white;
+  background-color: rgb(38, 44, 58);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer p {
+  margin: 0;
+}
+p.caption {
+  color: #999999;
+  font-style: italic;
+  margin-top: 0;
+}
